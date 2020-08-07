@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/headerColor"
+    android:orientation="vertical"
+    tools:context=".TeacherGrp.Activities.teacherList">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:text="Teachers List">
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/edit_query_text"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:text="VII"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <LinearLayout
+        android:background="@drawable/recyclerview_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTeachers"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_main_background"
+    android:orientation="vertical"
+    tools:context=".TeacherControl.Activities.TeacherDashboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeT"
+        android:textColor="@color/colorWhite"
+        android:background="@color/headerColor"
+        android:textSize="15dp"
+        android:text="Welcome: "
+        android:padding="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dashboardT"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:text="Company Dashboard"
+        android:padding="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DashHeader"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Teacher Dashboard"
+        android:padding="20dp"></TextView>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/viewStud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="150dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/students_bg"
+            android:text="View Students"></Button>
+
+        <Button
+            android:id="@+id/AddnewStud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="163dp"
+            android:background="@drawable/students_bg"
+            android:textColor="@color/colorWhite"
+            android:text="Add Students"></Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/addAssignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="163dp"
+            android:background="@drawable/students_bg"
+            android:textColor="@color/colorWhite"
+            android:text="Add Assignment"></Button>
+
+        <Button
+            android:id="@+id/logoutT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="150dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/students_bg"
+            android:text="Logout"></Button>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewTEmail"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="email"
+        android:visibility="gone"
+        android:padding="20dp"></TextView>
+</LinearLayout>

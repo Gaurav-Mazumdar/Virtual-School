@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_main_background"
+    android:orientation="vertical"
+    tools:context=".Organisation.Activities.MainDashboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:textColor="@color/colorWhite"
+        android:background="@color/headerColor"
+        android:textSize="15dp"
+        android:text="Welcome: "
+        android:padding="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dashboard"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:text="Company Dashboard"
+        android:padding="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/normals"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Company Dashboard"
+        android:padding="20dp"></TextView>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/viewTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="150dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/students_bg"
+            android:text="Assign Roles"></Button>
+
+        <Button
+            android:id="@+id/Addnew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="163dp"
+            android:background="@drawable/students_bg"
+            android:textColor="@color/colorWhite"
+            android:text="Add Teacher"></Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/students_bg"
+            android:text="Logout"></Button>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewEmail"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="email"
+        android:visibility="gone"
+        android:padding="20dp"></TextView>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_main_background"
+    tools:context=".TeacherGrp.Activities.teacherRole">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/headerColor"
+        android:id="@+id/toolbar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:text="Assign class and subject">
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tname"
+        android:text="Teacher Name: "
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Spinner
+            android:id="@+id/spinnerClass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/class_arrays"
+            android:fadeScrollbars="false"
+            android:prompt="@string/class_promt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinnerSub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/sub_arrays"
+            android:fadeScrollbars="false"
+            android:prompt="@string/Sub_promt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinnerPeriod"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/period_arrays"
+            android:fadeScrollbars="false"
+            android:prompt="@string/Period_promt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinnerDay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/day_arrays"
+            android:fadeScrollbars="false"
+            android:prompt="@string/Day_promt"
+            android:spinnerMode="dialog" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/buttonAssign"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Assign"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewRoles"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="View Assigned Roles"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+</LinearLayout>

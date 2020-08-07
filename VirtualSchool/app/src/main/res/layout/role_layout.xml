@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/roleHolder"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/teacherClass"
+            android:text="Class"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/headerColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/teacherSub"
+            android:text="Subject"
+            android:layout_centerVertical="true"
+            android:textColor="@color/headerColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/teacherPeriod"
+            android:text="Period"
+            android:layout_centerVertical="true"
+            android:textColor="@color/headerColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/weekDay"
+            android:text="Day"
+            android:layout_centerVertical="true"
+            android:textColor="@color/headerColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgMoreR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_navigate_next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"></ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

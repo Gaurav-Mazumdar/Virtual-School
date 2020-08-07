@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_main_background"
+    tools:context=".TeacherControl.Activities.dayAssignment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/headerColor"
+        android:id="@+id/toolbar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:text="Work of this Period">
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showName"
+        android:text="Teacher Name:"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showClass"
+        android:text="Class:"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showPeriod"
+        android:text="Period:"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showSub"
+        android:text="Subject:"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showDate"
+        android:text="Date:"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:id="@+id/topicName"
+            android:hint="Enter Topic of Discussion"
+            android:textColor="@color/colorAccent"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:id="@+id/assignUrl"
+            android:hint="Enter Url Link of video"
+            android:textColor="@color/colorAccent"></EditText>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/genCode"
+        android:textSize="20dp"
+        android:text="Generated Code: "
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/buttonAssign"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+</LinearLayout>

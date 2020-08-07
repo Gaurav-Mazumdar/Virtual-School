@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Virtual School</string>
+
+    <string name="class_promt">Choose a Class</string>
+    <string-array name="class_arrays">
+        <item>Nursery</item>
+        <item>LKG</item>
+        <item>UKG</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+        <item>XI-SCI</item>
+        <item>XI-COM</item>
+        <item>XI-ARTS</item>
+        <item>XII-SCI</item>
+        <item>XII-COM</item>
+        <item>XII-ARTS</item>
+    </string-array>
+
+    <string name="Sub_promt">Choose a Subject</string>
+    <string-array name="sub_arrays">
+        <item>Hin</item>
+        <item>Eng</item>
+        <item>Maths</item>
+        <item>Sci</item>
+        <item>Sst</item>
+        <item>Comp</item>
+        <item>Sans</item>
+    </string-array>
+
+    <string name="Period_promt">Choose period number</string>
+    <string-array name="period_arrays">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+    </string-array>
+
+    <string name="Day_promt">Choose Day of Week</string>
+    <string-array name="day_arrays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>
